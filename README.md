@@ -1,0 +1,4 @@
+boltcoin
+========
+
+Lightning fast transactions!
