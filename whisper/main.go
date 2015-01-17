@@ -8,10 +8,10 @@ import (
 	"net"
 	"os"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/whisper"
+	"github.com/obulpathi/boltcoin/event"
+	"github.com/obulpathi/boltcoin/logger"
+	"github.com/obulpathi/boltcoin/p2p"
+	"github.com/obulpathi/boltcoin/whisper"
 	"github.com/obscuren/secp256k1-go"
 )
 

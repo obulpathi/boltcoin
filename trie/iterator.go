@@ -3,7 +3,7 @@ package trie
 import (
 	"bytes"
 
-	"github.com/ethereum/go-ethereum/ethutil"
+	"github.com/obulpathi/boltcoin/ethutil"
 )
 
 type NodeType byte

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/ethereum/go-ethereum/ethutil"
+	"github.com/obulpathi/boltcoin/ethutil"
 )
 
 // Protocol represents a P2P subprotocol implementation.

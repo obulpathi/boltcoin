@@ -31,9 +31,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/state"
-	"github.com/ethereum/go-ethereum/tests/helper"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/state"
+	"github.com/obulpathi/boltcoin/tests/helper"
 )
 
 type Account struct {

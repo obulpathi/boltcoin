@@ -13,7 +13,7 @@ import (
 
 	checker "gopkg.in/check.v1"
 
-	"github.com/ethereum/go-ethereum/ethutil"
+	"github.com/obulpathi/boltcoin/ethutil"
 )
 
 const LONG_WORD = "1234567890abcdefghijklmnopqrstuvwxxzABCEFGHIJKLMNOPQRSTUVWXYZ"

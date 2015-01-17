@@ -9,15 +9,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/pow"
-	"github.com/ethereum/go-ethereum/pow/ezp"
-	"github.com/ethereum/go-ethereum/state"
-	"github.com/ethereum/go-ethereum/wire"
+	"github.com/obulpathi/boltcoin/core/types"
+	"github.com/obulpathi/boltcoin/crypto"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/event"
+	"github.com/obulpathi/boltcoin/logger"
+	"github.com/obulpathi/boltcoin/pow"
+	"github.com/obulpathi/boltcoin/pow/ezp"
+	"github.com/obulpathi/boltcoin/state"
+	"github.com/obulpathi/boltcoin/wire"
 )
 
 var statelogger = logger.NewLogger("BLOCK")

@@ -3,7 +3,7 @@ package xeth
 import (
 	"container/list"
 
-	"github.com/ethereum/go-ethereum/state"
+	"github.com/obulpathi/boltcoin/state"
 )
 
 type World struct {

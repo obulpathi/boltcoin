@@ -24,10 +24,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/javascript"
-	"github.com/ethereum/go-ethereum/logger"
+	"github.com/obulpathi/boltcoin"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/javascript"
+	"github.com/obulpathi/boltcoin/logger"
 )
 
 var repllogger = logger.NewLogger("REPL")

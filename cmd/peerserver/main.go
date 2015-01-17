@@ -7,9 +7,9 @@ import (
 	"net"
 	"os"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/obulpathi/boltcoin/crypto"
+	"github.com/obulpathi/boltcoin/logger"
+	"github.com/obulpathi/boltcoin/p2p"
 )
 
 func main() {

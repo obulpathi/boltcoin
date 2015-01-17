@@ -25,7 +25,7 @@ if [ "$GOPATH" == "" ]; then
 fi
 
 echo "changing branch to $branch"
-cd $GOPATH/src/github.com/ethereum/go-ethereum
+cd $GOPATH/src/github.com/obulpathi/boltcoin
 git checkout $branch
 
 # installing package dependencies doesn't work for develop
@@ -33,18 +33,18 @@ git checkout $branch
 # so build will continue to fail, but this installs locally
 # for people who git clone since go install will manage deps
 
-#echo "go get -u -d github.com/ethereum/go-ethereum/$path"
-#go get -v -u -d github.com/ethereum/go-ethereum/$path
+#echo "go get -u -d github.com/obulpathi/boltcoin/$path"
+#go get -v -u -d github.com/obulpathi/boltcoin/$path
 #if [ $? != 0 ]; then
 #	echo "go get failed"
 #	exit
 #fi
 
-cd $GOPATH/src/github.com/ethereum/go-ethereum/$path
+cd $GOPATH/src/github.com/obulpathi/boltcoin/$path
 
 if [ "$exe" == "mist" ]; then
 	echo "Building Mist GUI. Assuming Qt is installed. If this step"
-	echo "fails; please refer to: https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum(Go)"
+	echo "fails; please refer to: https://github.com/obulpathi/boltcoin/wiki/Building-Ethereum(Go)"
 else
 	echo "Building ethereum CLI."
 fi

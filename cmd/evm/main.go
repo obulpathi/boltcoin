@@ -32,14 +32,14 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/state"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/vm"
+	"github.com/obulpathi/boltcoin/core"
+	"github.com/obulpathi/boltcoin/core/types"
+	"github.com/obulpathi/boltcoin/ethdb"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/logger"
+	"github.com/obulpathi/boltcoin/state"
+	"github.com/obulpathi/boltcoin/trie"
+	"github.com/obulpathi/boltcoin/vm"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/ethutil"
+	"github.com/obulpathi/boltcoin/ethutil"
 )
 
 // Connection interface describing the methods required to implement the wire protocol.

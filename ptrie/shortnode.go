@@ -1,6 +1,6 @@
 package ptrie
 
-import "github.com/ethereum/go-ethereum/trie"
+import "github.com/obulpathi/boltcoin/trie"
 
 type ShortNode struct {
 	trie  *Trie

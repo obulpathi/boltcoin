@@ -30,10 +30,10 @@ RUN git submodule update --init
 RUN go install -v
 
 # Fetch and install go-ethereum
-RUN go get -v -d github.com/ethereum/go-ethereum/...
-WORKDIR $GOPATH/src/github.com/ethereum/go-ethereum
+RUN go get -v -d github.com/obulpathi/boltcoin/...
+WORKDIR $GOPATH/src/github.com/obulpathi/boltcoin
 RUN git checkout poc8
-RUN ETH_DEPS=$(go list -f '{{.Imports}} {{.TestImports}} {{.XTestImports}}' github.com/ethereum/go-ethereum/... | sed -e 's/\[//g' | sed -e 's/\]//g' | sed -e 's/C //g'); if [ "$ETH_DEPS" ]; then go get $ETH_DEPS; fi
+RUN ETH_DEPS=$(go list -f '{{.Imports}} {{.TestImports}} {{.XTestImports}}' github.com/obulpathi/boltcoin/... | sed -e 's/\[//g' | sed -e 's/\]//g' | sed -e 's/C //g'); if [ "$ETH_DEPS" ]; then go get $ETH_DEPS; fi
 RUN go install -v ./cmd/ethereum
 
 # Run JSON RPC

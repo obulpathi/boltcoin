@@ -13,15 +13,15 @@ import (
 	"time"
 
 	"bitbucket.org/kardianos/osext"
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/wire"
-	"github.com/ethereum/go-ethereum/xeth"
+	"github.com/obulpathi/boltcoin"
+	"github.com/obulpathi/boltcoin/crypto"
+	"github.com/obulpathi/boltcoin/ethdb"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/logger"
+	"github.com/obulpathi/boltcoin/miner"
+	"github.com/obulpathi/boltcoin/rpc"
+	"github.com/obulpathi/boltcoin/wire"
+	"github.com/obulpathi/boltcoin/xeth"
 )
 
 var clilogger = logger.NewLogger("CLI")

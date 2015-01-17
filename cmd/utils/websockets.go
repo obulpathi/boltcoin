@@ -1,10 +1,10 @@
 package utils
 
 import (
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/websocket"
-	"github.com/ethereum/go-ethereum/xeth"
+	"github.com/obulpathi/boltcoin"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/websocket"
+	"github.com/obulpathi/boltcoin/xeth"
 )
 
 func args(v ...interface{}) []interface{} {

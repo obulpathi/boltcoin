@@ -4,12 +4,12 @@ import (
 	"container/list"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/wire"
+	"github.com/obulpathi/boltcoin/core/types"
+	"github.com/obulpathi/boltcoin/crypto"
+	"github.com/obulpathi/boltcoin/ethdb"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/event"
+	"github.com/obulpathi/boltcoin/wire"
 )
 
 // Implement our EthTest Manager

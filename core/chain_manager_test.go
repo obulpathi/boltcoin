@@ -6,11 +6,11 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/event"
-	//logpkg "github.com/ethereum/go-ethereum/logger"
+	"github.com/obulpathi/boltcoin/core/types"
+	"github.com/obulpathi/boltcoin/ethdb"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/event"
+	//logpkg "github.com/obulpathi/boltcoin/logger"
 )
 
 //var Logger logpkg.LogSystem

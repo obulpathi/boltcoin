@@ -3,8 +3,8 @@ package qt
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/ui"
+	"github.com/obulpathi/boltcoin/core"
+	"github.com/obulpathi/boltcoin/ui"
 	"gopkg.in/qml.v1"
 )
 

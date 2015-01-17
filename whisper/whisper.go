@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event/filter"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/obulpathi/boltcoin/crypto"
+	"github.com/obulpathi/boltcoin/event/filter"
+	"github.com/obulpathi/boltcoin/p2p"
 	"gopkg.in/fatih/set.v0"
 )
 

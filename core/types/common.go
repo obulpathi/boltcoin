@@ -3,8 +3,8 @@ package types
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/state"
-	"github.com/ethereum/go-ethereum/wire"
+	"github.com/obulpathi/boltcoin/state"
+	"github.com/obulpathi/boltcoin/wire"
 )
 
 type BlockProcessor interface {

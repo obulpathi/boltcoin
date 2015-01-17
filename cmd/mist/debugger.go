@@ -24,11 +24,11 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/state"
-	"github.com/ethereum/go-ethereum/vm"
+	"github.com/obulpathi/boltcoin/cmd/utils"
+	"github.com/obulpathi/boltcoin/core"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/state"
+	"github.com/obulpathi/boltcoin/vm"
 	"gopkg.in/qml.v1"
 )
 

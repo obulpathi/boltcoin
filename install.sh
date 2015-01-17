@@ -10,4 +10,4 @@ sudo apt-get install -y libjsoncpp-dev libargtable2-dev
 
 go get -u github.com/obulpathi/boltcoin/cmd/boltcoin
 
-# Reference: https://github.com/ethereum/go-ethereum/wiki/Instructions-for-getting-the-Go-implementation-of-Ethereum-and-the-Mist-browser-installed-on-Ubuntu-14.04-%28trusty%29
+# Reference: https://github.com/obulpathi/boltcoin/wiki/Instructions-for-getting-the-Go-implementation-of-Ethereum-and-the-Mist-browser-installed-on-Ubuntu-14.04-%28trusty%29

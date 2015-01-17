@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/state"
-	"github.com/ethereum/go-ethereum/tests/helper"
+	"github.com/obulpathi/boltcoin/core/types"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/logger"
+	"github.com/obulpathi/boltcoin/state"
+	"github.com/obulpathi/boltcoin/tests/helper"
 )
 
 type Account struct {

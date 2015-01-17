@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/trie"
 )
 
 type DerivableList interface {

@@ -21,10 +21,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/cmd/ethereum/repl"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/javascript"
+	"github.com/obulpathi/boltcoin"
+	"github.com/obulpathi/boltcoin/cmd/ethereum/repl"
+	"github.com/obulpathi/boltcoin/cmd/utils"
+	"github.com/obulpathi/boltcoin/javascript"
 )
 
 func InitJsConsole(ethereum *eth.Ethereum) {

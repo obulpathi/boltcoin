@@ -25,8 +25,8 @@ import (
 	"os/user"
 	"path"
 
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/vm"
+	"github.com/obulpathi/boltcoin/logger"
+	"github.com/obulpathi/boltcoin/vm"
 )
 
 var (

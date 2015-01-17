@@ -3,7 +3,7 @@ package crypto
 import (
 	"strings"
 
-	"github.com/ethereum/go-ethereum/ethutil"
+	"github.com/obulpathi/boltcoin/ethutil"
 	"github.com/obscuren/secp256k1-go"
 )
 

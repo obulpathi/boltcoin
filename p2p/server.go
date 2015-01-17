@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/logger"
+	"github.com/obulpathi/boltcoin/logger"
 )
 
 const (

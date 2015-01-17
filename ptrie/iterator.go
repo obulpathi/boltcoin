@@ -3,7 +3,7 @@ package ptrie
 import (
 	"bytes"
 
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/obulpathi/boltcoin/trie"
 )
 
 type Iterator struct {

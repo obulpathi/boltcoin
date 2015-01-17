@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/state"
-	"github.com/ethereum/go-ethereum/vm"
+	"github.com/obulpathi/boltcoin/state"
+	"github.com/obulpathi/boltcoin/vm"
 )
 
 type Execution struct {

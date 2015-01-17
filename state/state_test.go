@@ -3,9 +3,9 @@ package state
 import (
 	checker "gopkg.in/check.v1"
 
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/obulpathi/boltcoin/ethdb"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/trie"
 )
 
 type StateSuite struct {

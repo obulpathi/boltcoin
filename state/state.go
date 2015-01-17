@@ -3,9 +3,9 @@ package state
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/logger"
+	"github.com/obulpathi/boltcoin/trie"
 )
 
 var statelogger = logger.NewLogger("STATE")

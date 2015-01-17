@@ -27,16 +27,16 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/pow"
-	"github.com/ethereum/go-ethereum/pow/ezp"
+	"github.com/obulpathi/boltcoin"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/pow"
+	"github.com/obulpathi/boltcoin/pow/ezp"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/wire"
+	"github.com/obulpathi/boltcoin/core"
+	"github.com/obulpathi/boltcoin/core/types"
+	"github.com/obulpathi/boltcoin/event"
+	"github.com/obulpathi/boltcoin/logger"
+	"github.com/obulpathi/boltcoin/wire"
 )
 
 type LocalTx struct {

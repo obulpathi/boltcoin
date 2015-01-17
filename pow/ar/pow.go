@@ -3,7 +3,7 @@ package ar
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/ethutil"
+	"github.com/obulpathi/boltcoin/ethutil"
 )
 
 type Entry struct {

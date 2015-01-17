@@ -3,8 +3,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/ethutil"
-	"github.com/ethereum/go-ethereum/logger"
+	"github.com/obulpathi/boltcoin/ethutil"
+	"github.com/obulpathi/boltcoin/logger"
 )
 
 var vmlogger = logger.NewLogger("VM")

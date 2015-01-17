@@ -23,9 +23,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/logger"
+	"github.com/obulpathi/boltcoin"
+	"github.com/obulpathi/boltcoin/cmd/utils"
+	"github.com/obulpathi/boltcoin/logger"
 	"gopkg.in/qml.v1"
 )
 

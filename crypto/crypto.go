@@ -7,7 +7,7 @@ import (
 	"crypto/sha256"
 
 	"code.google.com/p/go.crypto/ripemd160"
-	"github.com/ethereum/go-ethereum/ethutil"
+	"github.com/obulpathi/boltcoin/ethutil"
 	"github.com/obscuren/ecies"
 	"github.com/obscuren/secp256k1-go"
 	"github.com/obscuren/sha3"

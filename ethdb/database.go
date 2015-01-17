@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/ethereum/go-ethereum/compression/rle"
-	"github.com/ethereum/go-ethereum/ethutil"
+	"github.com/obulpathi/boltcoin/compression/rle"
+	"github.com/obulpathi/boltcoin/ethutil"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 )

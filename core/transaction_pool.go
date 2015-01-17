@@ -7,11 +7,11 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/state"
-	"github.com/ethereum/go-ethereum/wire"
+	"github.com/obulpathi/boltcoin/core/types"
+	"github.com/obulpathi/boltcoin/event"
+	"github.com/obulpathi/boltcoin/logger"
+	"github.com/obulpathi/boltcoin/state"
+	"github.com/obulpathi/boltcoin/wire"
 )
 
 var txplogger = logger.NewLogger("TXP")

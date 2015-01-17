@@ -3,7 +3,7 @@ package websocket
 import (
 	"net/http"
 
-	"github.com/ethereum/go-ethereum/logger"
+	"github.com/obulpathi/boltcoin/logger"
 
 	ws "code.google.com/p/go.net/websocket"
 )

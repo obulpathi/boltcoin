@@ -3,7 +3,7 @@ package state
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/ethutil"
+	"github.com/obulpathi/boltcoin/ethutil"
 )
 
 type Log interface {

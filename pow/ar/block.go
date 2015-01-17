@@ -3,7 +3,7 @@ package ar
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/obulpathi/boltcoin/trie"
 )
 
 type Block interface {

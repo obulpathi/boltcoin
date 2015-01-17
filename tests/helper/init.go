@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/ethereum/go-ethereum/ethutil"
-	logpkg "github.com/ethereum/go-ethereum/logger"
+	"github.com/obulpathi/boltcoin/ethutil"
+	logpkg "github.com/obulpathi/boltcoin/logger"
 )
 
 var Logger logpkg.LogSystem

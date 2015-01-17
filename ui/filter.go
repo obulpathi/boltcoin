@@ -1,8 +1,8 @@
 package ui
 
 import (
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/ethutil"
+	"github.com/obulpathi/boltcoin/core"
+	"github.com/obulpathi/boltcoin/ethutil"
 )
 
 func NewFilterFromMap(object map[string]interface{}, eth core.EthManager) *core.Filter {

@@ -20,13 +20,13 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/javascript"
-	"github.com/ethereum/go-ethereum/state"
-	"github.com/ethereum/go-ethereum/ui/qt"
-	"github.com/ethereum/go-ethereum/xeth"
+	"github.com/obulpathi/boltcoin/core"
+	"github.com/obulpathi/boltcoin/core/types"
+	"github.com/obulpathi/boltcoin/event"
+	"github.com/obulpathi/boltcoin/javascript"
+	"github.com/obulpathi/boltcoin/state"
+	"github.com/obulpathi/boltcoin/ui/qt"
+	"github.com/obulpathi/boltcoin/xeth"
 	"gopkg.in/qml.v1"
 )
 

@@ -7,7 +7,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/ethutil"
+	"github.com/obulpathi/boltcoin/ethutil"
 )
 
 // The connection object allows you to set up a connection to the Ethereum network.

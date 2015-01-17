@@ -3,7 +3,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/state"
+	"github.com/obulpathi/boltcoin/state"
 )
 
 type ClosureRef interface {
