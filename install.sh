@@ -1,53 +1,13 @@
-#!/bin/sh
+sudo apt-get update && sudo apt-get -yy upgrade
 
-if [ "$1" == "" ]; then
-	echo "Usage $0 executable branch"
-	echo "executable    ethereum | mist"
-	echo "branch        develop | master"
-	exit
-fi
+sudo apt-get install -y libgmp3-dev libreadline6-dev
+sudo apt-get install -y mercurial golang
 
-exe=$1
-path=$exe
-branch=$2
+sudo apt-get install -y build-essential g++-4.8 git cmake libboost-all-dev
+sudo apt-get install -y automake unzip libgmp-dev libtool libleveldb-dev yasm libminiupnpc-dev libreadline-dev scons
+sudo apt-get install -y libncurses5-dev libcurl4-openssl-dev wget
+sudo apt-get install -y libjsoncpp-dev libargtable2-dev
 
-if [ "$branch" == "develop" ]; then
-	path="cmd/$exe"
-fi
+go get -u github.com/obulpathi/boltcoin/cmd/boltcoin
 
-# Test if go is installed
-command -v go >/dev/null 2>&1 || { echo >&2 "Unable to find 'go'. This script requires go."; exit 1; }
-
-# Test if $GOPATH is set
-if [ "$GOPATH" == "" ]; then
-	echo "\$GOPATH not set"
-	exit
-fi
-
-echo "changing branch to $branch"
-cd $GOPATH/src/github.com/ethereum/go-ethereum
-git checkout $branch
-
-# installing package dependencies doesn't work for develop
-# branch as go get always pulls from master head
-# so build will continue to fail, but this installs locally
-# for people who git clone since go install will manage deps
-
-#echo "go get -u -d github.com/ethereum/go-ethereum/$path"
-#go get -v -u -d github.com/ethereum/go-ethereum/$path
-#if [ $? != 0 ]; then
-#	echo "go get failed"
-#	exit
-#fi
-
-cd $GOPATH/src/github.com/ethereum/go-ethereum/$path
-
-if [ "$exe" == "mist" ]; then
-	echo "Building Mist GUI. Assuming Qt is installed. If this step"
-	echo "fails; please refer to: https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum(Go)"
-else
-	echo "Building ethereum CLI."
-fi
-
-go install
-echo "done. Please run $exe :-)"
+# Reference: https://github.com/ethereum/go-ethereum/wiki/Instructions-for-getting-the-Go-implementation-of-Ethereum-and-the-Mist-browser-installed-on-Ubuntu-14.04-%28trusty%29
