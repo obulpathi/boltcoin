@@ -8,6 +8,6 @@ sudo apt-get install -y automake unzip libgmp-dev libtool libleveldb-dev yasm li
 sudo apt-get install -y libncurses5-dev libcurl4-openssl-dev wget
 sudo apt-get install -y libjsoncpp-dev libargtable2-dev
 
-go get -u github.com/obulpathi/boltcoin/cmd/boltcoin
+go get -u github.com/obulpathi/boltcoin/cmd/ethereum
 
 # Reference: https://github.com/obulpathi/boltcoin/wiki/Instructions-for-getting-the-Go-implementation-of-Ethereum-and-the-Mist-browser-installed-on-Ubuntu-14.04-%28trusty%29
